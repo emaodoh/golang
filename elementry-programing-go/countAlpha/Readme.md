@@ -1,0 +1,1 @@
+This is a function CountAlpha() that takes a string as an argument and returns the number of alphabetic characters in the string.
