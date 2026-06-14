@@ -10,7 +10,7 @@ func HashCode(dec string) string {
 		if hash < 33 {
 			hash += 33
 		}
-		word += string(hash)
+		word = word + string(hash)
 	}
 	return word
 }

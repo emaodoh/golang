@@ -7,16 +7,12 @@ This is a function called HashCode() that takes a string as an argument and retu
 
 (ASCII of current character + size of the string) % 127, ensuring the result falls within the ASCII range of 0 to 127.
 
-    If the resulting character is unprintable add 33 to it.
+    If the resulting character is unprintable i will add 33 to it.
 
-Expected function
-
-func HashCode(dec string) string {
-}
 
 Usage
 
-Here is a possible program to test your function:
+Here is a possible program to test the function:
 
 package main
 
@@ -33,7 +29,7 @@ func main() {
 
 And its output:
 
-$ go run .
+$ go run main.go
 B
 CD
 EDF
