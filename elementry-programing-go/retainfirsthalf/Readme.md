@@ -25,7 +25,7 @@ func main() {
 
 And its output:
 
-$ go run . | cat -e
+$ go run main.go | cat -e
 This is the 1st half$
 A$
 $

@@ -20,7 +20,7 @@ func main() {
 
 And its output:
 
-$ go run .
+$ go run main.go
 24$
 2666664$
 -1$

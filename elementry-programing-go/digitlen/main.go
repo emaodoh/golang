@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func DigitLen(n, base int) int {
 	if base < 2 || base > 32 {
 		return -1
